@@ -2,6 +2,7 @@
 Golang cli client for https://dynamicdisplay.recurse.com
 
 To compile and run this
+```
 $ make && ./ddctl hello world
 Response Status: 201 CREATED
 Response Body: {
@@ -10,6 +11,7 @@ Response Body: {
   "data": 101, 
   "id": 101
 }
+```
 
 Main page for the dynamic display board on floor 5:
 - https://dynamicdisplay.recurse.com
